@@ -15,6 +15,3 @@ function test(frequency, index) {
 	if(frequency >= frequencies[index] * 1.03) return ">>•";
 	else return "•<<";
 }
-
-abc = [329.63, 246.94, 195, 146, 111, 82.41]
-console.log(tune(abc))
